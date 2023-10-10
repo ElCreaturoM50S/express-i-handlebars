@@ -1,0 +1,25 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "wah",
+  "main": "index.jx",
+  "scripts": {
+    "test": "echo \"Error: no test psecified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.0.1",
+    "serve-index": "^1.9.1"
+  }
+}
