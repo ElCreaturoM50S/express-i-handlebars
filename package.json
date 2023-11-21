@@ -1,7 +1,7 @@
 {
   "name": "expressjs",
   "version": "1.0.0",
-  "description": "wah",
+  "description": "wahhh wahh",
   "main": "index.jx",
   "scripts": {
     "test": "echo \"Error: no test psecified\" && exit 1"
@@ -17,9 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "express-handlebars": "^7.1.2",
-    "jquery": "^3.7.1",
-    "nodemon": "^3.0.1",
-    "serve-index": "^1.9.1"
+    "express-handlebars": "^7.1.2"
   }
 }

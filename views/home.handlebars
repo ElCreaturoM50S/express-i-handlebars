@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <h1>Witaj na portalu o makaronach!</h1>  
-  <nav>
-    <ul>
-      <li><a href="/">Strona główna</a></li>
-      <li><a href="/pasta/1">Spaghetti Carbonara</a></li>
-      <li><a href="/pasta/2">Penne Arrabbiata</a></li>
-      <li><a href="/pasta/3">Fettuccine Alfredo</a></li>
-      <li><a href="/pasta/4">Linguine with Clam Sauce</a></li>
-      <li><a href="/pasta/5">Ravioli</a></li>
-      <li><a href="/pasta/6">Spaghetti Carbonara</a></li>
-    </ul>
-  </nav>
-</body>
-</html>
+<div class="homeMain">
+    <div>
+        <div class="leftMainHomeDiv">
+            <h1>RAHHHHHHH Dino-Witaaam</h1>
+            <a href="#polecaneStrony">RAAAAAAAAAAHHHHH Przepisy</a>
+        </div>
+        <div class="rightMainHomeDiv">
+            <p>To jest Tekst Zdjecia</p>
+        </div>
+    </div>
+</div>
+<div class="mainContainer" id="polecaneStrony">
+    <h1>
+        Polecane Dania
+    </h1>
+
+    <div class="scrollabeRow">
+        {{#each makaronDane}}
+        <div class="pastaHomeContainer">
+            <img src="/assets/{{this.image}}" alt={{this.name}}>
+            
+            <h1>{{this}}</h1>
+            <span class="bg"></span>
+        </div>
+        {{/each}}
+    </div>
+
+</div>

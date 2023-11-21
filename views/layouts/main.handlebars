@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{title}}</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexaron Makaron</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <header>
-    <h1>{{title}}</h1>
-  </header>
-
-  <div class="container">
-    {{{body}}} <!-- To jest ważne, umożliwia wstawienie treści strony -->
-  </div>
-  <footer>
-    &copy; 2023 Portal o Makaronach
-  </footer>
+    <div class="container">
+        {{> header}}
+        <div class="content">
+            {{{body}}}
+        </div>
+        {{> footer}}
+    </div>
 </body>
 </html>
