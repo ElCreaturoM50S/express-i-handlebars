@@ -17,34 +17,42 @@ app.get("/", (req,res) => {
   });
 });
 
-app.get("/pasta/:id", (req,res) => {
+app.get("/:id", (req,res) => {
+
   //:id daje nam (id) fragment url po :
   const { id } = req.params;
   //makaron z makaronDane[id]
-  const makaron = makaronDane[id]
-
-  //jezeli mamy makaron z makaron id to jest git
-  if (makaron) {
-    //render pasta view with makaronDane
-    res.render("pasta", {
-      makaronDane: makaron,
-    });
-  } else {
-    //handle error 404
-    //if respond is 404(page not found then)
-    res.status(404).render("404")
+  try {
+    const makaron = makaronDane[id]
+    if (makaron) {
+      //render makaron view with makaronDane
+      res.render("makaron", {
+        makaronDane: makaron,
+      });
+    } else {
+      res.status(404).render("strona404")
+    }
+  } catch (error) {
+    res.status(500).render("strona500")
   }
+  
+  //jezeli mamy makaron z makaron id to jest git
 });
 
+app.get("/SEKRET", (req, res) => {
+  res.render("innastrona")
+});
 
 //* jest kazdym innym url ktory nie jest w innych getach
 app.get("*", (req, res) => {
   //tstatus zwraca status
-  res.status(404).render("404")
+  res.status(404).render("strona404")
 });
 
-const port = 2137 
 
+
+//porty
+const port = 2137 
 app.listen(port, () => {
   console.log(`Czy to jest serwer ${port}?, tak to jest serwer ${port}`)
 })

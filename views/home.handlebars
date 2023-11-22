@@ -1,28 +1,15 @@
 <div class="homeMain">
     <div>
-        <div class="leftMainHomeDiv">
+        <div class="headerMain">
             <h1>RAHHHHHHH Dino-Witaaam</h1>
-            <a href="#polecaneStrony">RAAAAAAAAAAHHHHH Przepisy</a>
-        </div>
-        <div class="rightMainHomeDiv">
-            <p>To jest Tekst Zdjecia</p>
         </div>
     </div>
 </div>
-<div class="mainContainer" id="polecaneStrony">
-    <h1>
-        Polecane Dania
-    </h1>
-
-    <div class="scrollabeRow">
-        {{#each makaronDane}}
-        <div class="pastaHomeContainer">
-            <img src="/assets/{{this.image}}" alt={{this.name}}>
-            
-            <h1>{{this}}</h1>
-            <span class="bg"></span>
-        </div>
-        {{/each}}
+<div class="mainContainer">
+    {{#each makaronDane}}
+    <div class="makaronContainer">
+        <img src="/assets/{{this.image}}.jpg" alt={{this.name}}>
+        <a href="/{{this.image}}"><h1>{{this.image}}</h1></a>
     </div>
-
+    {{/each}}
 </div>

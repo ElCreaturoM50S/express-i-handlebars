@@ -1,5 +1,6 @@
-[
-    {
+{
+    "Bolognese" :{
+        "image": "Bolognese",
         "name": "Spaghetti Bolognese",
         "Składniki": "Mięso mielone, cebula, czosnek, pomidory, spaghetti, sól, pieprz",
         "Instrukcje": [
@@ -11,7 +12,8 @@
         ],
         "Recenzja": "Rawr! To danie było dino-wspaniałe! Mięso było przepyszne, a sos pomidorowy fantastyczny. Nie mogłem się powstrzymać przed dokładką."
     },
-    {
+    "Fettuccine" : {
+        "image": "Fettuccine",
         "name": "Fettuccine Alfredo",
         "Składniki": "Makaron fettuccine, masło, śmietana, ser parmezan, sól, pieprz",
         "Instrukcje": [
@@ -23,7 +25,8 @@
         ],
         "Recenzja": "Roar! Ten kremowy makaron był dino-pyszny. Ser i masło sprawiły, że moje kubki smakowe tańczyły z radości!"
     },
-    {
+    "Penne" : {
+        "image": "Penne",
         "name": "Penne alla Vodka",
         "Składniki": "Makaron penne, cebula, czosnek, koncentrat pomidorowy, śmietana, wódka, sól, pieprz",
         "Instrukcje": [
@@ -35,7 +38,8 @@
         ],
         "Recenzja": "Rawr! Sos wódka na tym penne był dino-fantastyczny! Miał odpowiednią kremowość i smak. Roar-szawy sukces!"
     },
-    {
+    "Lasagna" : {
+        "image": "Lasagna",
         "name": "Lasagna",
         "Składniki": "Naleśniki lasagne, mięso mielone, sos pomidorowy, ser ricotta, ser mozzarella, jajka, sól, pieprz",
         "Instrukcje": [
@@ -47,7 +51,8 @@
         ],
         "Recenzja": "Roar! Ta lasagna była dino-feerią! Warstwy pysznego sera i aromatycznego sosu mięsnego. To prawdziwy prehistoryczny klasyk!"
     },
-    {
+    "Carbonara" : {
+        "image": "Carbonara",
         "name": "Carbonara",
         "Składniki": "Spaghetti, jajka, boczek, ser parmezan, czosnek, sól, pieprz",
         "Instrukcje": [
@@ -58,7 +63,8 @@
         ],
         "Recenzja": "Rawr! Ta carbonara była dino-pyszna! Kremowy sos i chrupiący boczek to doskonałe połączenie. Pożarłem to!"
     },
-    {
+    "Cheese" : {
+        "image": "Cheese",
         "name": "Macaroni and Cheese",
         "Składniki": "Makaron elbow, masło, mąka, mleko, ser cheddar, sól, pieprz",
         "Instrukcje": [
@@ -70,4 +76,4 @@
         ],
         "Recenzja": "Roar! To makaron z serem było dino-fantastyczne! Sos serowy był nieziemski. Będę go jeść jeszcze i jeszcze!"
     }
-]
+}

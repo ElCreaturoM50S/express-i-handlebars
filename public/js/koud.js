@@ -1,0 +1,1 @@
+window.location.replace("https://www.youtube.com/watch?v=BbeeuzU5Qc8");
