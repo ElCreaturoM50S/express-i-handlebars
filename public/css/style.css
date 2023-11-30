@@ -1,0 +1,66 @@
+img {
+    -webkit-box-shadow: 8px 8px 24px 11px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 8px 8px 24px 11px rgba(255, 255, 255, 1);
+    box-shadow: 8px 8px 24px 11px rgba(255, 255, 255, 1);
+    border-radius: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+body {
+    text-align: center;
+    text-shadow: -2px -2px 8px rgba(0, 0, 0, 1);
+}
+
+header { 
+    height: 50px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.makaronContainer {
+    padding: 0px 45px;
+}
+
+.pastaMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.pastaLeftMain {
+    padding: 50px;
+}
+
+.pastaLeftMain img {
+    width: 500px;
+    height: 500px;
+}
+
+.pastaRightMain {
+    padding: 50px;
+    text-wrap: wrap;
+}
+
+.headerMain { 
+    margin: 50px;
+}
